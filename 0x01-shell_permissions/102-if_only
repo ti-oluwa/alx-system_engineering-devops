@@ -1,0 +1,5 @@
+#!/bin/bash
+if [whoami -eq guillaume]
+then
+chown betty hello
+fi
